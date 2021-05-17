@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  margin: 0 10%;
+}
+.header__top {
+  display: flex;
+}
+.header__top {
+  justify-content: space-between;
+}
+.header__top p {
+  text-transform: uppercase;
+}
+.header__icons {
+  margin: 0;
+  padding: 0;
+}
+.header__icons li {
+  display: inline-block;
+  list-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */
