@@ -14,14 +14,14 @@ a {
   text-decoration: none;
 }
 
-.header {
-  margin: 0 10%;
-}
 .header__top {
   display: flex;
+  padding: 0 10%;
+  background-color: #252525;
 }
 .header__top {
   justify-content: space-between;
+  color: white;
 }
 .header__top p {
   text-transform: uppercase;

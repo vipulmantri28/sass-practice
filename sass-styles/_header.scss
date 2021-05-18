@@ -1,13 +1,14 @@
 .header {
-
-    margin: 0 10%;
-
+    
     &__top {
         display: flex;
+        padding: 0 10%;
+        @include backgroundColor(#252525);
     }
 
     &__top {
         justify-content: space-between;
+        @include color(white);
     }
 
     &__top p {
